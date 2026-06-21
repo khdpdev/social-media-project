@@ -1,5 +1,6 @@
-@import url(../node_modules/normalize.css/normalize.css);
+/* @import url(../node_modules/normalize.css/normalize.css);
 @import url(./variables.css);
+@import url(./layout.css); */
 
 * {
     box-sizing: border-box;
