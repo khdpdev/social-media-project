@@ -2,6 +2,7 @@
 @import url(./variables.css);
 @import url(./layout.css);
 @import url(./componentes/aside-left.css);
+@import url(./componentes/main.css);
 
 * {
     box-sizing: border-box;

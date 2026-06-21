@@ -1,0 +1,58 @@
+.header {
+    display: none;
+}
+
+.banner {
+    height: 120px;
+    background-color: var(--color-primary);
+    object-fit: cover;
+    font-size: 0;
+}
+
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    border: solid 5px #fff;
+    margin: -40px 0 0 25px;
+    font-size: 0;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-div-perfil {
+    text-align: end;
+}
+
+.datos-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fallows-section {
+    display: flex;
+    gap: 10px;
+}
+
+.container-pestanas {
+    width: 100%;
+    border-bottom: solid 0.5px var(--line-divisor);
+    padding-bottom: 15px;
+}
+
+.pestanas {
+    width: 100%;
+    display: flex;justify-content: space-between;
+}
