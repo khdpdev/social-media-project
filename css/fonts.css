@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Brands-Regular-400.otf) format('otf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Free-Regular-400.otf) format('otf');
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Free-Solid-900.otf) format('otf');
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+}

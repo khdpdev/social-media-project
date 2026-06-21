@@ -1,32 +1,30 @@
-/* Paleta de Colores */
+:root {
+    /* Paleta de Colores */
 
+--color-primary: rgb(124, 202, 255);
+--background-light: rgb(255, 255, 255);
+--background-dark: rgb(0, 0, 0);
+--container-background: rgb(230, 249, 255);
+--text-title-light: rgb(0, 0, 0);
+--text-title-dark: rgb(255, 255, 255);
+--text-secondary-light: rgb(144, 144, 144);
+--text-secondary-dark: rgb(107, 112, 117);
+--icon-light: #8f8f8f;
+--icon-dark: #fff;
+--icon-like: red;
+--icon-retweet: green;
+--line-divisor: rgb(210, 210, 210);
 
 
 /* Fuente Principal */
 
-@font-face {
-    font-family: 'Font Awesome 5 Brands';
-    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Brands-Regular-400.otf) format('otf');
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
+--font-title: 'Poppins', sans-serif;
+--font-body: 'Roboto', sans-serif;
+
+
+/* Estilo de Bordes */
+
+--border-radius-block: 14px;
+--border-radius-pill: 150px;
+
 }
-
-@font-face {
-    font-family: 'Font Awesome 5 Free';
-    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Free-Regular-400.otf) format('otf');
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'Font Awesome 5 Free';
-    src: url(/fonts/font-awesome/Font\ Awesome\ 5\ Free-Solid-900.otf) format('otf');
-    font-style: normal;
-    font-weight: 900;
-    font-display: block;
-}
-
-
-/* Estilo de Botones */
