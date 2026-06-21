@@ -1,6 +1,7 @@
 @import url(../node_modules/normalize.css/normalize.css);
 @import url(./variables.css);
 @import url(./layout.css);
+@import url(./componentes/aside-left.css);
 
 * {
     box-sizing: border-box;
