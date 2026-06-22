@@ -82,10 +82,15 @@
     flex-shrink: 0;
 }
 
-.container
+.container-post {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 .post-texto {
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
 
@@ -105,4 +110,5 @@
     display: flex;
     justify-content: space-between;
     padding-top: 12px;
+    max-width: 85%;
 }
