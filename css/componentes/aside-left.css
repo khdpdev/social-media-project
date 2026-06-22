@@ -26,5 +26,15 @@ nav {
 }
 
 .btn-div-navbar {
-    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+.btn-div-navbar button {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    border: none;
 }
