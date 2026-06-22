@@ -58,6 +58,8 @@
 }
 
 .tarjeta {
+    display: flex;
+    gap: 10px;
     padding: 15px 0;
     border-bottom: solid 0.5px var(--line-divisor);
 }
@@ -73,16 +75,18 @@
 }
 
 .post-foto {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: var(--color-primary);
     border-radius: 50%;
     flex-shrink: 0;
 }
 
+.container
+
 .post-texto {
     display: flex;
-    flex-grow: 1;   
+    flex-grow: 1;
 }
 
 .post-cabecera {
@@ -91,7 +95,14 @@
     gap: 10px;
 }
 
-.container-post {
+.container-user {
     display: flex;
+    flex-wrap: nowrap;
     gap: 10px;
+}
+
+.reacciones {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
 }
