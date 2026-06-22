@@ -38,3 +38,18 @@ nav {
     background-color: var(--color-primary);
     border: none;
 }
+
+@media (min-width: 1024px) {
+    .btn-div-navbar {
+    position: static;
+}
+
+.btn-div-navbar button {
+    width: 100px;
+    height: 55px;
+    border-radius: 0;
+    background-color: var(--color-primary);
+    border: none;
+}
+
+}
