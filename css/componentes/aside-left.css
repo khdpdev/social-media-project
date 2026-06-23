@@ -40,16 +40,19 @@ nav {
 }
 
 @media (min-width: 1024px) {
+
     .btn-div-navbar {
     position: static;
 }
 
 .btn-div-navbar button {
-    width: 100px;
-    height: 55px;
+    width: 100%;
+    height: 35px;
     border-radius: 0;
     background-color: var(--color-primary);
-    border: none;
+    border-radius: var(--border-radius-pill);
+    color: #fff;
+    font-weight: 600;
 }
 
 .list-navbar:nth-child(n+5) {
@@ -70,12 +73,15 @@ nav {
 #logo-x {
     display: block;
     padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 nav {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: block;
+    margin: 0 auto;
 }
 
 }

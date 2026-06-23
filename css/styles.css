@@ -3,6 +3,7 @@
 @import url(./layout.css);
 @import url(./componentes/aside-left.css);
 @import url(./componentes/main.css);
+@import url(./componentes/aside-right.css);
 
 * {
     box-sizing: border-box;
