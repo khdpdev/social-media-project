@@ -33,3 +33,28 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.usuario-t {
+    color: var(--text-secondary-light);
+    font-size: 0.8rem;
+}
+
+.number-tweets {
+    color: var(--text-secondary-light);
+    font-size: 0.6rem;
+}
+
+.show p {
+    color: var(--color-primary);
+    font-size: 0.8rem;
+}
+
+.metadatos, .metadato-date {
+    color: var(--text-secondary-light);
+    font-size: 0.8rem;
+}
