@@ -57,11 +57,14 @@
     display: flex;justify-content: space-between;
 }
 
+.line-tarjeta {
+    border-bottom: solid 1px var(--line-divisor);
+}
+
 .tarjeta {
     display: flex;
     gap: 10px;
     padding: 15px 0;
-    border-bottom: solid 0.5px var(--line-divisor);
 }
 
 .post {
@@ -156,5 +159,9 @@
 
     .container-datos {
         border-bottom: solid 1px var(--line-divisor);
+    }
+
+    .tarjeta {
+        padding-left: 15px;
     }
 }
