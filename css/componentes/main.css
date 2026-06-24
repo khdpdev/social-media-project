@@ -48,7 +48,7 @@
 
 .container-pestanas {
     width: 100%;
-    border-bottom: solid 0.5px var(--line-divisor);
+    border-bottom: solid 1px var(--line-divisor);
     padding-bottom: 15px;
 }
 
@@ -116,7 +116,45 @@
 @media (min-width: 1024px) {
     .header {
         display: flex;
+        align-items: center;
         gap: 15px;
-        padding: 15px 0;
+        padding: 15px 10px;
+    }
+
+    .banner {
+        height: 160px;
+    }
+
+    .foto-perfil {
+        width: 110px;
+        height: 110px;
+        margin: -70px 0 0 25px;
+    }
+
+    .datos {
+        padding: 0 20px;
+        margin-top: -25px;
+    }
+
+    .btn-div-perfil button {
+        background-color: transparent;
+        width: 130px;
+        height: 35px;
+        border-radius: var(--border-radius-pill);
+        border: solid 2px var(--color-primary);
+        color: var(--color-primary);
+        font-weight: 700;
+    }
+
+    .btn-div-perfil button:hover {
+        cursor: pointer;
+    }
+
+    .container-pestanas {
+        border: none;
+    }
+
+    .container-datos {
+        border-bottom: solid 1px var(--line-divisor);
     }
 }

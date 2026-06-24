@@ -54,6 +54,10 @@ nav {
     font-weight: 600;
 }
 
+.btn-div-navbar button:hover {
+    cursor: pointer;
+}
+
 .list-navbar:nth-child(n+5) {
     display: block;
 }
