@@ -4,7 +4,7 @@
         background-color: var(--container-background-light);
         border-radius: var(--border-radius-pill);
         padding: 8px;
-        margin-left: 25px;
+        margin: 20px 0 0 25px;
     }
 
     .icon-input {
@@ -17,6 +17,16 @@
         width: 100%;
     }
 
+    .text-busqueda input:focus {
+        outline: none;
+    }
+
+    .title {
+        border-bottom: solid 1px var(--line-divisor);
+        width: 100%;
+        height: 30px;
+    }
+
     .grid-img, .vestibulum, .donec-commodo {
         margin-left: 25px;
     }
@@ -24,19 +34,45 @@
     .vestibulum, .donec-commodo {
         display: flex;
         flex-direction: column;
-        gap: 10px;
         background-color: var(--container-background-light);
         border-radius: var(--border-radius-block);
+        padding: 15px 0;
+    }
+
+    .title, .show {
+        padding: 0 15px;
     }
 
     .tarjetas-usuarios {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 0px;
+    }
+
+    .card {
+        border-bottom: solid 1px var(--line-divisor);
     }
 
     .usuarios-follow {
         display: flex;
+        flex-grow: 1;
+        gap: 10px;
+        align-items: center;
+        padding: 15px 15px;
+    }
+
+    .usuarios-follow .btn-usuario {
+        margin-left: auto;
+    }
+
+    .btn-usuario button {
+        background-color: transparent;
+        color: var(--color-primary);
+        font-weight: 700;
+        width: 75px;
+        height: 30px;
+        border-radius: var(--border-radius-pill);
+        border: solid 1px var(--color-primary);
     }
 
     .foto-usuario {
@@ -44,6 +80,26 @@
         height: 40px;
         background-color: var(--color-primary);
         border-radius: 50%;
+    }
+
+    .show {
+        margin-top: 10px;
+    }
+
+    .firts-dc {
+        display: flex;
+    }
+
+    .engranaje {
+        margin-left: auto;
+    }
+
+    .donec-commodo .hashtag:not(:last-child) {
+        border-bottom: solid 1px var(--line-divisor);
+    }
+
+    .hashtag {
+        padding: 15px 15px;
     }
 
 }

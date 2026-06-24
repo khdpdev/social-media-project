@@ -36,7 +36,7 @@ main {
 @media (min-width: 1024px){
     body {
         display: grid;
-        grid-template-columns: 250px 1fr 250px;
+        grid-template-columns: 250px 1fr 350px;
         max-width: 1250px;
         margin: 0 auto;
         margin-bottom: 0;
@@ -60,7 +60,7 @@ main {
     }
 
     main {
-        padding: 0 20px;
+        padding: 0 0px;
     }
 
 }
