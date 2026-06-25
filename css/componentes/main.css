@@ -125,18 +125,18 @@
     }
 
     .banner {
-        height: 160px;
+        height: 200px;
     }
 
     .foto-perfil {
-        width: 110px;
-        height: 110px;
+        width: 133.5px;
+        height: 133.5px;
         margin: -70px 0 0 25px;
     }
 
     .datos {
         padding: 0 20px;
-        margin-top: -25px;
+        margin-top: -35px;
     }
 
     .btn-div-perfil button {
