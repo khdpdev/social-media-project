@@ -55,8 +55,12 @@ main {
     .aside-right {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         border-left: solid 0.5px var(--line-divisor);
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        padding-bottom: 20px;
     }
 
     main {
