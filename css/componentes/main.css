@@ -25,6 +25,15 @@
     gap: 15px;
 }
 
+.descripcion {
+    display: flex;
+    flex-direction: column;
+}
+
+.metadato-perfil {
+    display: flex;
+}
+
 .btn-div-perfil {
     text-align: end;
 }
@@ -122,6 +131,24 @@
         align-items: center;
         gap: 15px;
         padding: 15px 10px;
+    }
+
+    .flecha-back {
+        padding: 8px;
+        background-color: transparent;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+
+    .flecha-back:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: var(--color-primary);
+        cursor: pointer;
+    }
+
+    .flecha-back svg {
+        width: 15px;
+        height: 15px;
     }
 
     .banner {
