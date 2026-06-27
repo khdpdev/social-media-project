@@ -41,29 +41,59 @@ nav {
 
 @media (min-width: 1024px) {
 
+    #logo-x svg {
+        width: 30px;
+        height: 30px;
+    }
+
     .btn-div-navbar {
     position: static;
 }
 
 .btn-div-navbar button {
     width: 100%;
-    height: 35px;
+    height: 50px;
     background-color: var(--color-primary);
     border-radius: var(--border-radius-pill);
     color: #fff;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 
 .btn-div-navbar button:hover {
     cursor: pointer;
+    background-color: rgb(117, 188, 235);
 }
 
 .list-navbar:nth-child(n+5) {
     display: block;
 }
 
-.list-navbar a {
-    font-size: 1rem;
+.container-nav a {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.container-nav {
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    border-radius: var(--border-radius-pill);
+    transition: all 0.3s ease;
+}
+
+.container-nav:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: var(--color-primary);
+}
+
+.container-nav svg {
+    width: 30px;
+    height: 30px;
 }
 
 .lista-ul {
