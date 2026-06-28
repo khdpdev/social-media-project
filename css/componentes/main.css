@@ -1,5 +1,12 @@
 .header {
-    display: none;
+    display: flex;
+    gap: 15px;
+    padding: 15px 10px;
+}
+
+.header svg {
+    width: 13px;
+    height: 13px;
 }
 
 .banner {
@@ -60,7 +67,7 @@
 
 .metadato-perfil {
     display: flex;
-    gap: 8px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 

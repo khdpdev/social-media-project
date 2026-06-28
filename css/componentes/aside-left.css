@@ -35,8 +35,15 @@ nav {
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    font-size: 0;
     background-color: var(--color-primary);
     border: none;
+}
+
+.btn-div-navbar button svg {
+    width: 18px;
+    height: 18px;
+    color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -53,6 +60,7 @@ nav {
 .btn-div-navbar button {
     width: 100%;
     height: 50px;
+    font-size: 1.2rem;
     background-color: var(--color-primary);
     border-radius: var(--border-radius-pill);
     color: #fff;
@@ -63,6 +71,10 @@ nav {
 .btn-div-navbar button:hover {
     cursor: pointer;
     background-color: rgb(117, 188, 235);
+}
+
+.btn-div-navbar button svg {
+    display: none;
 }
 
 .list-navbar:nth-child(n+5) {
