@@ -3,20 +3,35 @@
 }
 
 .banner {
+    width: 100%;
     height: 120px;
     background-color: var(--color-primary);
     object-fit: cover;
     font-size: 0;
+    overflow: hidden;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 80% center;
 }
 
 .foto-perfil {
-    width: 90px;
-    height: 90px;
-    background-color: var(--color-primary);
+    width: 110px;
+    height: 110px;
     border-radius: 50%;
     border: solid 5px #fff;
-    margin: -45px 0 0 25px;
-    font-size: 0;
+    margin: -45px 0 0 0;
+    overflow: hidden;
+}
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
 }
 
 .datos {
@@ -122,9 +137,16 @@
 .post-foto {
     width: 50px;
     height: 50px;
-    background-color: var(--color-primary);
     border-radius: 50%;
     flex-shrink: 0;
+    overflow: hidden;
+}
+
+.post-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
 }
 
 .container-post {
@@ -225,9 +247,16 @@
     }
 
     .foto-perfil {
+        display: flex;
         width: 133.5px;
         height: 133.5px;
         margin: -70px 0 0 25px;
+    }
+
+    .foto-perfil img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .datos {
@@ -253,7 +282,7 @@
 
     .btn-div-perfil button:hover {
         cursor: pointer;
-        background-color: rgba(124, 202, 255, 0.5);
+        background-color: var(--color-primary);
         color: #fff;
     }
 
@@ -284,5 +313,9 @@
 
     .tarjeta {
         padding: 15px;
+    }
+
+    .iconos-reaccion {
+        cursor: pointer;
     }
 }
