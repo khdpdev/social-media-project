@@ -82,13 +82,21 @@
 
 .container-pestanas {
     width: 100%;
+    height: 35px;
     border-bottom: solid 1px var(--line-divisor);
-    padding-bottom: 15px;
 }
 
 .pestanas {
     width: 100%;
-    display: flex;justify-content: space-between;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pestanas-navbar p {
+    font-size: 0.9rem;
+    font-weight: 700;
+    height: 100%;
 }
 
 .line-tarjeta {
@@ -220,6 +228,18 @@
 
     .container-pestanas {
         border: none;
+    }
+
+    .pestanas-navbar {
+        border-bottom: solid 2px transparent;
+        color: black;
+        transition: all 0.3s ease;
+    }
+
+    .pestanas-navbar:hover {
+        border-bottom: solid 2px var(--color-primary);
+        color: var(--color-primary);
+        cursor: pointer;
     }
 
     .container-datos {
