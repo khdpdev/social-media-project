@@ -178,6 +178,22 @@
     max-width: 85%;
 }
 
+.iconos-reaccion {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--icon-light);
+}
+
+.iconos-reaccion svg {
+    width: 18px;
+    height: 18px;
+}
+
+.iconos-reaccion p {
+    font-size: 0.8rem;
+}
+
 @media (min-width: 1024px) {
     .header {
         display: flex;
