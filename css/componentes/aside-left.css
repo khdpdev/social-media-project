@@ -18,10 +18,13 @@ nav {
     list-style: none;
 }
 
+.container-nav {
+    color: var(--icon-light);
+}
+
 .container-nav a svg {
     width: 25px;
     height: 25px;
-    color: var(--icon-light);
 }
 
 .list-navbar:nth-child(n+5) {
