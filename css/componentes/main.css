@@ -112,7 +112,7 @@
 .post {
     width: 100%;
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .post .post-flecha {
@@ -148,7 +148,27 @@
 .container-user {
     display: flex;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 7px;
+}
+
+.post-cabecera-name-user h3 {
+    font-size: 1rem;
+}
+
+.post-flecha {
+    display: flex;
+    justify-content: end;
+}
+
+.post-flecha svg {
+    width: 15px;
+    height: 15px;
+    color: var(--icon-light);
+    transition: all 0.3s ease;
+}
+
+.post-flecha svg:hover {
+    cursor: pointer;
 }
 
 .reacciones {
@@ -247,6 +267,6 @@
     }
 
     .tarjeta {
-        padding-left: 15px;
+        padding: 15px;
     }
 }
