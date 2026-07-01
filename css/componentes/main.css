@@ -45,6 +45,10 @@
     object-position: center 30%;
 }
 
+.dark .foto-perfil {
+    border: none;
+}
+
 .datos {
     display: flex;
     flex-direction: column;
@@ -61,6 +65,16 @@
     color: var(--color-primary);
     font-size: 0.8rem;
     font-weight: 500;
+}
+
+.dark .btn-div-perfil button {
+    border: solid 2px #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.dark .btn-div-perfil button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .descripcion {
@@ -104,6 +118,10 @@
 
 .metadatos strong {
     color: black;
+}
+
+.dark .metadatos strong {
+    color: #fff;
 }
 
 .container-pestanas {
@@ -198,6 +216,10 @@
     height: 15px;
     color: var(--icon-light);
     transition: all 0.3s ease;
+}
+
+.dark svg {
+    color: #fff;
 }
 
 .post-flecha svg:hover {

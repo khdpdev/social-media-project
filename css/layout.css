@@ -13,6 +13,11 @@ body {
     transition: all 0.3s ease;
 }
 
+.dark .aside-left {
+    background-color: var(--container-background-dark);
+    transition: all 0.3s ease;
+}
+
 .aside-right {
     display: none;
 }
@@ -25,6 +30,7 @@ body {
     width: 100%;
     height: 60px;
     z-index: 100;
+    background-color: var(--background-light);
     border-top: solid 0.5px var(--line-divisor);
 }
 
@@ -54,7 +60,12 @@ main {
         height: 100vh;
         flex-direction: column;
         border-top: 0;
+        background-color: transparent;
         border-right: solid 0.5px var(--line-divisor);
+    }
+
+    .dark .aside-left {
+        background-color: transparent;
     }
 
     .aside-right {
