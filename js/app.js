@@ -11,4 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     elementosDom.boton = document.querySelector('#dark-mode');
 
     console.log('Capturado y asignado las propiedades a la constante elementosDOM: ', elementosDom);
+
+    elementosDom.boton.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        elementosDom.body.classList.toggle('dark')
+    });
 });

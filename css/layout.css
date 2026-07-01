@@ -7,6 +7,11 @@ body {
     position: relative;
 }
 
+.dark {
+    background-color: var(--container-background-dark);
+    color: #fff;
+}
+
 .aside-right {
     display: none;
 }
