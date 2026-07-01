@@ -1,5 +1,5 @@
 .dark .aside-left {
-        background-color: var(--container-background-dark);
+        transition: all 0.3s ease;
     }
 
 .dark .aside-left nav .lista-ul .list-navbar .container-nav a {
