@@ -9,6 +9,7 @@
 .dark .aside-left .btn-div-navbar button {
     background-color: var(--background-light);
     color: var(--background-dark);
+    transition: all 0.3s ease;
 }
 
 .dark .aside-left .btn-div-navbar button:hover {
