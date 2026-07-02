@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    align-items: center;
     gap: 15px;
     padding: 15px 10px;
 }
@@ -11,6 +12,38 @@
 
 .btn-mode {
     margin-left: auto;
+    margin-right: 10px;
+}
+
+#dark-mode {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#moon {
+    height: 25px;
+    width: 25px;
+}
+
+#sun {
+    display: none;
+}
+
+.dark #sun {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.dark #moon {
+    display: none;
 }
 
 .banner {
@@ -76,6 +109,7 @@
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
+    line-height: 0.7rem;
 }
 
 .metadato-perfil {
@@ -151,7 +185,6 @@
 .post {
     width: 100%;
     display: flex;
-    /* gap: 10px; */
 }
 
 .post .post-flecha {
@@ -253,6 +286,8 @@
     }
 
     .flecha-back {
+        display: flex;
+        align-items: center;
         padding: 8px;
         background-color: transparent;
         border-radius: 50%;
@@ -261,13 +296,31 @@
 
     .flecha-back:hover {
         background-color: rgba(0, 0, 0, 0.1);
-        color: var(--color-primary);
         cursor: pointer;
     }
 
     .flecha-back svg {
         width: 15px;
         height: 15px;
+    }
+
+    #dark-mode:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    .dark .flecha-back:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
+
+    .dark #dark-mode:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
+
+    .btn-mode {
+        margin-right: 25px;
     }
 
     .banner {
@@ -325,7 +378,7 @@
 
     .pestanas-navbar {
         border-bottom: solid 2px transparent;
-        color: black;
+        color: #fff;
         transition: all 0.3s ease;
     }
 
@@ -333,6 +386,11 @@
         border-bottom: solid 2px var(--color-primary);
         color: var(--color-primary);
         cursor: pointer;
+    }
+
+    .dark .pestanas-navbar:hover {
+        color: var(--text-secondary-light);
+        border-bottom: solid 2px var(--text-secondary-light);
     }
 
     .container-datos {
