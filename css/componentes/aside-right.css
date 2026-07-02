@@ -7,6 +7,11 @@
         margin: 20px 25px 0 25px;
     }
 
+    .dark .busqueda {
+        background-color: transparent;
+        border: solid 1px var(--line-divisor);
+    }
+
     .icon-input {
         display: flex;
         gap: 10px;
@@ -20,6 +25,10 @@
         width: 13px;
         height: 13px;
         color: var(--color-primary);
+    }
+
+    .dark .icon-search svg {
+        color: var(--text-secondary-dark);
     }
 
     .text-busqueda {
@@ -38,6 +47,11 @@
 
     .text-busqueda input::placeholder {
         color: var(--color-primary);
+        font-size: 0.8rem;
+    }
+
+    .dark .text-busqueda input::placeholder {
+        color: var(--text-secondary-dark);
     }
 
     .grid-img {
@@ -74,6 +88,11 @@
         margin: 20px 25px 0 25px;
     }
 
+    .dark .vestibulum, .dark .donec-commodo {
+        background-color: transparent;
+        border: solid 1px var(--line-divisor);
+    }
+
     .title, .show {
         padding: 0 15px;
     }
@@ -107,7 +126,7 @@
     .btn-usuario button {
         background-color: transparent;
         color: var(--color-primary);
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         font-weight: 500;
         width: 75px;
         height: 30px;
@@ -119,6 +138,15 @@
     .btn-usuario button:hover {
         cursor: pointer;
         background-color: rgba(255, 255, 255, 1);
+    }
+
+    .dark .btn-usuario button {
+        color: var(--text-title-dark);
+        border: solid 1px var(--text-title-dark);
+    }
+
+    .dark .btn-usuario button:hover {
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
     .foto-usuario {
@@ -140,6 +168,10 @@
         cursor: pointer;
     }
 
+    .dark .show p {
+        color: var(--text-secondary-dark);
+    }
+
     .firts-dc {
         display: flex;
     }
@@ -156,6 +188,10 @@
 
     .engranaje svg:hover {
         cursor: pointer;
+    }
+
+    .dark .engranaje svg {
+        color: var(--text-title-dark);
     }
 
     .donec-commodo .hashtag:not(:last-child) {
