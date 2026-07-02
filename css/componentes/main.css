@@ -30,11 +30,10 @@
 }
 
 .foto-perfil {
-    width: 110px;
-    height: 110px;
+    width: 105px;
+    height: 105px;
     border-radius: 50%;
-    border: solid 5px #fff;
-    margin: -45px 0 0 0;
+    margin: -52.5px 0 0 10px;
     overflow: hidden;
 }
 
@@ -43,10 +42,6 @@
     height: 100%;
     object-fit: cover;
     object-position: center 30%;
-}
-
-.dark .foto-perfil {
-    border: none;
 }
 
 .datos {
